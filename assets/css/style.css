@@ -1,22 +1,26 @@
-img{
+img {
     max-width: 100%;
 }
 
 #site_header,
-#site_footer{
+#site_footer {
     background-color: #2c3e50;
 }
 
 .jumbo,
-.about{
+.about {
     background-color: #1abc9c;
 }
 
-.find_me{
+.jumbo img {
+    width: 200px;
+}
+
+.find_me {
     background-color: #3a546d;
 }
 
-.line_light{
+.line_light {
     background-color: white;
     border-radius: 1rem;
     height: 4px;
@@ -24,7 +28,7 @@ img{
     margin: 0.5rem;
 }
 
-.line_dark{
+.line_dark {
     background-color: black;
     border-radius: 1rem;
     height: 4px;
@@ -32,20 +36,26 @@ img{
     margin: 0.5rem;
 }
 
-.text_primary{
+.text_primary {
     color: #1abc9c;
 }
 
+#btn_green {
+    background-color: #1abc9c;
+    color: white;
+}
+
 .circled_icon,
-.icon_wrapper{
-    display: flex;
+.icon_wrapper {
     justify-content: center;
     align-items: center;
 }
 
-.icon_wrapper{
+.icon_wrapper {
     border: 1px solid white;
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    display: inline-flex;
+    margin: 0.5rem;
 }
